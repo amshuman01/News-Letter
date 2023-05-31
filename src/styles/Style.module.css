@@ -6,6 +6,13 @@
   width: 100%;
 }
 
+.title {
+  font-weight: bold;
+}
+
+.title:hover {
+  color: crimson;
+}
 .header {
   height: 30px;
   display: flex;

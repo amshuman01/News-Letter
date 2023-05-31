@@ -4,13 +4,6 @@ import { BASEurl } from '../utils/links';
 
 type apiData = {}[];
 
-// const fetchNews = async (id: number) => {
-//   const res = await fetch(`${BASEurl}/item/${id}.json`);
-//   const data = await res.json();
-//   // console.log(data);
-//   return data;
-// };
-
 const sliceData = (arr: []) => {
   return arr.slice(0, 20);
 };
